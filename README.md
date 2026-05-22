@@ -1,90 +1,168 @@
-# ChargeGrid – Plataforma Inteligente de Recarga Veicular
+# ChargeGrid – Plataforma Inteligente de Gestão para Eletropostos Comerciais
 
 ## Equipe
-- João Pedro Sousa  
-- *(Adicionar demais integrantes, se houver)*
+- Augusto de Souza Ávila - RM: 570839   
+- Davi Simoncelo - RM: 571738  
+- João Pedro Sousa - RM: 573962  
+- Matheus Evangelista Silva - RM:	568593  
+- Murilo Lima	de Carvalho - RM: 570156  
+
 
 ---
 
-## Problema e Justificativa
+# Visão Geral do Projeto
 
-Com o crescimento da utilização de veículos elétricos, aumenta também a demanda por infraestrutura de recarga eficiente, segura e inteligente. Embora carregadores residenciais atendam bem ao uso individual, o setor comercial exige soluções mais robustas, capazes de gerenciar múltiplos usuários, controlar o consumo energético, realizar cobrança automatizada e manter estabilidade operacional.
+O ChargeGrid é uma solução desenvolvida para transformar carregadores veiculares comerciais em uma plataforma inteligente de gerenciamento energético, monitoramento operacional e monetização de recargas elétricas. O projeto é fundamentado no ecossistema da GoodWe, integrando tecnologias de energia renovável, controle inteligente de demanda e gestão eficiente da infraestrutura elétrica.
 
-Nesse contexto, o projeto **ChargeGrid**, desenvolvido com base na infraestrutura da GoodWe, busca transformar carregadores veiculares comerciais em uma plataforma inteligente de gerenciamento energético e monetização.
+A proposta busca atender ao crescimento acelerado da mobilidade elétrica e à necessidade de eletropostos mais sustentáveis, inteligentes e economicamente viáveis.
 
-Os principais problemas identificados são:
+---
 
-- Sobrecarga energética em horários de pico;
-- Falta de padronização e compatibilidade entre equipamentos;
-- Dificuldade de cobrança e monetização das recargas;
+# Problema Central
+
+O principal problema identificado está relacionado à gestão de eletropostos comerciais. Diferentemente do ambiente residencial, o setor comercial exige controle simultâneo de múltiplas recargas, estabilidade energética, cobrança automatizada e disponibilidade contínua dos carregadores.
+
+Sem um sistema inteligente de gerenciamento, podem ocorrer:
+
+- Sobrecarga elétrica em horários de pico;
+- Aumento excessivo da demanda contratada;
 - Ineficiência energética;
-- Problemas de experiência do usuário;
-- Vulnerabilidades relacionadas à segurança e privacidade de dados;
-- Exposição a ataques cibernéticos.
+- Dificuldade de integração entre equipamentos;
+- Problemas de cobrança e monetização;
+- Falta de monitoramento operacional;
+- Vulnerabilidades de segurança e privacidade de dados;
+- Experiência inconsistente para o usuário.
 
-A justificativa do projeto está na necessidade crescente de soluções sustentáveis e inteligentes para mobilidade elétrica, garantindo eficiência operacional, estabilidade energética e viabilidade econômica para estabelecimentos comerciais.
+Além disso, muitos eletropostos funcionam apenas como hardware isolado, sem capacidade de análise de dados, integração energética ou otimização operacional.
 
 ---
 
-## Proposta e Impactos Esperados
+# Proposta de Solução
 
-O ChargeGrid propõe uma plataforma inteligente para gerenciamento de carregadores veiculares comerciais, integrando controle energético, monitoramento em tempo real, autenticação de usuários, cobrança automatizada e análise inteligente de dados.
+O ChargeGrid propõe uma plataforma inteligente baseada no ecossistema GoodWe, integrando carregadores veiculares, gerenciamento energético, protocolos abertos e análise inteligente de dados.
 
-A solução utiliza sistemas de gerenciamento de demanda para distribuir dinamicamente a potência disponível, reduzindo riscos de sobrecarga e otimizando o uso da infraestrutura elétrica. Além disso, a plataforma implementa protocolos abertos para garantir interoperabilidade entre equipamentos e permitir expansão futura da rede de carregamento.
+A solução utiliza:
 
-Também são incorporados mecanismos de tarifação dinâmica, sistemas digitais de pagamento e recursos de Inteligência Artificial para previsão de consumo, otimização energética e manutenção preditiva.
+- Controle inteligente de demanda energética;
+- Monitoramento em tempo real;
+- Protocolos abertos de comunicação;
+- Sistemas de autenticação e cobrança;
+- Tarifação dinâmica;
+- Inteligência Artificial aplicada;
+- Integração futura com energia solar e armazenamento em baterias.
 
-### Impactos esperados
+O objetivo é transformar o eletroposto em um hub inteligente de energia e dados, capaz de otimizar o consumo elétrico, reduzir desperdícios, automatizar operações e melhorar a experiência do usuário.
+
+---
+
+# Fundamentação em Sustentabilidade e Eficiência Energética
+
+A solução é fundamentada nos princípios de sustentabilidade e energias renováveis, buscando promover um modelo de mobilidade elétrica mais eficiente e ambientalmente responsável.
+
+## Eficiência Energética
+
+O sistema realiza gerenciamento inteligente de carga, distribuindo dinamicamente a potência disponível entre os carregadores conforme a demanda da instalação.
+
+Isso permite:
 
 - Redução de desperdícios energéticos;
-- Maior estabilidade da rede elétrica;
-- Melhor aproveitamento da infraestrutura existente;
-- Automatização da cobrança e monetização do serviço;
-- Aumento da eficiência operacional;
-- Melhoria da experiência do usuário;
+- Diminuição de picos de consumo;
+- Melhor aproveitamento da infraestrutura elétrica;
 - Redução de custos operacionais;
-- Incentivo à adoção de veículos elétricos;
-- Maior sustentabilidade da operação comercial.
+- Maior estabilidade da rede elétrica.
+
+## Integração com Energias Renováveis
+
+A plataforma pode operar integrada ao ecossistema energético da GoodWe, incluindo:
+
+- Sistemas fotovoltaicos;
+- Inversores inteligentes;
+- Armazenamento em baterias;
+- Gestão energética centralizada.
+
+Com isso, a recarga dos veículos pode priorizar energia solar e horários de menor demanda da rede, reduzindo impactos ambientais e aumentando a eficiência operacional.
+
+## Sustentabilidade
+
+O projeto contribui diretamente para:
+
+- Incentivo à mobilidade sustentável;
+- Redução de emissão de gases poluentes;
+- Uso consciente da energia elétrica;
+- Desenvolvimento de infraestrutura alinhada às cidades inteligentes;
+- Expansão do uso de energias renováveis.
 
 ---
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
-O projeto utiliza tecnologias voltadas para comunicação, automação, monitoramento e gerenciamento inteligente da infraestrutura de recarga.
+## Protocolos e Comunicação
+- MODBUS;
+- RFID;
+- Sistemas de monitoramento em tempo real.
 
-### Protocolos e Comunicação
-- **MODBUS** — comunicação entre dispositivos e sistemas energéticos;
-- **RFID** — autenticação e identificação de usuários;
-- **OCPP (futuramente)** — integração com plataformas de gerenciamento de carregadores.
-
-### Sistemas Inteligentes
-- Monitoramento em tempo real;
-- Gerenciamento inteligente de demanda energética;
+## Gerenciamento Inteligente
+- Controle de demanda energética;
+- Balanceamento de carga;
 - Tarifação dinâmica;
-- Plataformas digitais de pagamento;
-- Inteligência Artificial aplicada à análise de dados e otimização energética.
+- Inteligência Artificial aplicada;
+- Monitoramento remoto.
 
-### Segurança
+## Segurança
 - Criptografia de dados;
 - Controle de acesso;
-- Políticas de cibersegurança;
-- Monitoramento contínuo da rede.
+- Monitoramento contínuo;
+- Políticas de cibersegurança.
 
 ---
 
-## Como os Princípios de Energias Renováveis e Sustentabilidade Fundamentam a Solução
+# Viabilidade Técnica
 
-Os princípios de energias renováveis e sustentabilidade são fundamentais para o desenvolvimento do ChargeGrid, pois a plataforma busca promover um modelo de recarga elétrica mais eficiente, inteligente e ambientalmente responsável.
+A solução apresenta viabilidade técnica inicial devido ao uso de tecnologias amplamente consolidadas no mercado de mobilidade elétrica e automação energética.
 
-A solução incentiva o uso racional da energia por meio do gerenciamento inteligente da demanda, reduzindo desperdícios e evitando sobrecargas na rede elétrica. Além disso, o sistema pode ser integrado a fontes renováveis, como energia solar e sistemas de armazenamento em baterias, priorizando o consumo de energia limpa durante o carregamento dos veículos.
+Os protocolos MODBUS e RFID já possuem ampla utilização industrial e permitem integração entre diferentes equipamentos e plataformas. Além disso, a infraestrutura GoodWe oferece compatibilidade com sistemas de energia solar, armazenamento e monitoramento inteligente.
 
-O projeto também contribui para:
+O projeto também utiliza conceitos já aplicados em smart grids e sistemas de gerenciamento energético, reduzindo riscos de implementação e aumentando a escalabilidade da solução.
 
-- Redução da emissão de gases poluentes;
+A adoção de Inteligência Artificial e monitoramento em tempo real amplia a capacidade de automação e otimização operacional dos eletropostos.
+
+---
+
+# Viabilidade de Negócio
+
+A crescente adoção de veículos elétricos aumenta a demanda por infraestrutura de recarga comercial, criando oportunidades para estabelecimentos que desejam monetizar o serviço de carregamento.
+
+O ChargeGrid permite:
+
+- Cobrança automatizada das recargas;
+- Controle financeiro da operação;
+- Otimização do consumo energético;
+- Redução de custos operacionais;
+- Diferencial competitivo para estabelecimentos comerciais.
+
+Além disso, a integração com energias renováveis pode reduzir gastos energéticos de longo prazo, aumentando a sustentabilidade financeira do modelo de negócio.
+
+A solução também apresenta potencial de expansão futura para redes de carregamento inteligentes, integração com aplicativos e sistemas avançados de gestão energética.
+
+---
+
+# Impactos Esperados
+
 - Maior eficiência energética;
-- Incentivo à mobilidade sustentável;
-- Otimização do consumo elétrico;
-- Uso consciente dos recursos energéticos;
-- Desenvolvimento de infraestrutura alinhada às cidades inteligentes.
+- Redução de desperdícios;
+- Melhor estabilidade elétrica;
+- Automatização operacional;
+- Maior confiabilidade do sistema;
+- Melhor experiência para usuários;
+- Incentivo à mobilidade elétrica;
+- Expansão do uso de energia renovável;
+- Sustentabilidade operacional e financeira.
 
-Dessa forma, o ChargeGrid não apenas melhora a operação de carregadores comerciais, mas também fortalece a transição para um modelo energético mais sustentável e tecnologicamente integrado.
+---
+
+# Conclusão
+
+O ChargeGrid propõe uma solução inteligente, sustentável e tecnicamente viável para a gestão de eletropostos comerciais. Utilizando o ecossistema GoodWe como base tecnológica, o projeto integra gerenciamento energético, automação, protocolos abertos e sustentabilidade em uma única plataforma.
+
+A proposta busca não apenas resolver problemas operacionais da infraestrutura de recarga elétrica, mas também contribuir para o avanço da mobilidade sustentável e da eficiência energética em ambientes comerciais.
+
