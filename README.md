@@ -12,7 +12,7 @@
 
 # Visão Geral do Projeto
 
-O ChargeGrid é uma solução desenvolvida para transformar carregadores veiculares comerciais em uma plataforma inteligente de gerenciamento energético, monitoramento operacional e monetização de recargas elétricas. O projeto é fundamentado no ecossistema da GoodWe, integrando tecnologias de energia renovável, controle inteligente de demanda e gestão eficiente da infraestrutura elétrica.
+O ChargeGrid é um desafio proposto pela GoodWe como solução desenvolvida para transformar carregadores veiculares residenciais em comerciais, por uma plataforma inteligente de gerenciamento energético, monitoramento operacional e monetização de recargas elétricas. O projeto é fundamentado no ecossistema da GoodWe, integrando tecnologias de energia renovável, controle inteligente de demanda e gestão eficiente da infraestrutura elétrica.
 
 A proposta busca atender ao crescimento acelerado da mobilidade elétrica e à necessidade de eletropostos mais sustentáveis, inteligentes e economicamente viáveis.
 
@@ -49,7 +49,7 @@ A solução utiliza:
 - Sistemas de autenticação e cobrança;
 - Tarifação dinâmica;
 - Inteligência Artificial aplicada;
-- Integração futura com energia solar e armazenamento em baterias.
+- Integração com energia solar e armazenamento em baterias.
 
 O objetivo é transformar o eletroposto em um hub inteligente de energia e dados, capaz de otimizar o consumo elétrico, reduzir desperdícios, automatizar operações e melhorar a experiência do usuário.
 
